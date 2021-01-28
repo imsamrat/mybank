@@ -11,7 +11,7 @@ loginBtn.addEventListener("click", function () {
 
 const depositBtn = document.getElementById("addDeposit");
 depositBtn.addEventListener("click", function () {
-    const depositNumber = getInputNumber("depositNumber");
+    const depositNumber = getInputNumber("depositAmount");
 
     // const currentDeposit = document.getElementById("currentDeposit").innerHTML;
     // const currentDepositNumber = parseFloat(currentDeposit);
